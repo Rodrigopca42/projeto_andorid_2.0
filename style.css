@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Thai+Looped:wght@300;400&family=Poppins&display=swap');
+
+
+@font-face {
+    font-family: 'iDroid';
+    src: url('fontes/IDroid.otf') format('opentype');
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #83e1ad;
+
+}
+
+header{
+    background-image: linear-gradient( to bottom, #3DDC84, #063D1E);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    height: 400px;
+    align-items: center;
+    line-height: 60px;
+    margin-top: 0;
+}
+.cabeca{
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.87);
+    margin-top: 0px;
+    padding-top: 45px;
+}
+.cabeca1 {
+    color: #C5EBD6;
+    font-size: 2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.87);
+}
+
+nav{
+    background-color: #063D1E;
+    height: 100px;
+}
+
+main{
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+.historia{
+    color: #063D1E;
+    font-family: 'iDroid' , sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+h2{
+    font-family: 'iDroid' , sans-serif;
+    background-image: linear-gradient(to right, #c5ebD6, white);
+    color: #063D1E;
+    font-size: 1.6em;
+    font-weight: normal;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+picture{
+    align-items: center;
+    margin:auto;
+}
